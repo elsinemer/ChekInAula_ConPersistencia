@@ -1,0 +1,56 @@
+# -------------------------
+# IntelliJ IDEA
+# -------------------------
+.idea/
+*.iml
+*.iws
+out/
+
+# Compartir run configs opcional:
+# .run/        # <- descomenta si NO querés versionarlas
+
+# -------------------------
+# Java / Compilados
+# -------------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# -------------------------
+# Maven / Gradle
+# -------------------------
+target/
+.build/
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.properties
+
+# -------------------------
+# Logs / Temp / Entornos
+# -------------------------
+*.log
+*.tmp
+*.swp
+*.swo
+*.cache
+.env
+.env.*
+*.secret
+
+# -------------------------
+# SO (Windows / macOS / Linux)
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Tests / Cobertura (si aplica)
+# -------------------------
+.jacoco/
+jacoco.exec
+coverage/
