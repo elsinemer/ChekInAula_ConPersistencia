@@ -9,9 +9,3 @@ El proyecto está estructurado siguiendo buenas prácticas de programación orie
 Check-in Aula fue desarrollado en IntelliJ IDEA utilizando Java 23. Su ejecución es muy sencilla: al correr el archivo App.java, la aplicación se inicia por defecto en modo gráfico; si se desea utilizar por consola, basta con agregar el argumento --nogui en la configuración de ejecución.
 
 En definitiva, este proyecto constituye un ejemplo práctico de cómo implementar un sistema básico de registro con persistencia en archivos, integrando conceptos fundamentales de la programación orientada a objetos, manejo de archivos y diseño de interfaces gráficas en Java.
-
-* Link a GitHub con:
-
-  * Código fuente (`src/...`) con la estructura mínima indicada.
-  * `README.md` breve con comandos de compilación/ejecución por consola y cómo lanzar con `--gui`.
-  * `.gitignore` básico.
